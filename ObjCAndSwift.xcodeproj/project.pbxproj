@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		29183C9D1E13A009001A8BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29183C9C1E13A009001A8BAA /* main.m */; };
 		29183CA01E13A009001A8BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29183C9F1E13A009001A8BAA /* AppDelegate.m */; };
-		29183CA31E13A009001A8BAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29183CA21E13A009001A8BAA /* ViewController.m */; };
 		29183CA61E13A009001A8BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29183CA41E13A009001A8BAA /* Main.storyboard */; };
 		29183CA81E13A009001A8BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29183CA71E13A009001A8BAA /* Assets.xcassets */; };
 		29183CAB1E13A009001A8BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29183CA91E13A009001A8BAA /* LaunchScreen.storyboard */; };
 		29183CB61E13A009001A8BAA /* ObjCAndSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29183CB51E13A009001A8BAA /* ObjCAndSwiftTests.m */; };
 		29183CC11E13A009001A8BAA /* ObjCAndSwiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29183CC01E13A009001A8BAA /* ObjCAndSwiftUITests.m */; };
+		29183CD31E13A173001A8BAA /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 29183CD21E13A173001A8BAA /* FirstVC.m */; };
+		29183CD51E13A244001A8BAA /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29183CD41E13A244001A8BAA /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		29183C9C1E13A009001A8BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29183C9E1E13A009001A8BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29183C9F1E13A009001A8BAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		29183CA11E13A009001A8BAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		29183CA21E13A009001A8BAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		29183CA51E13A009001A8BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29183CA71E13A009001A8BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29183CAA1E13A009001A8BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,11 @@
 		29183CBC1E13A009001A8BAA /* ObjCAndSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCAndSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29183CC01E13A009001A8BAA /* ObjCAndSwiftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCAndSwiftUITests.m; sourceTree = "<group>"; };
 		29183CC21E13A009001A8BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29183CCE1E13A087001A8BAA /* ObjCAndSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCAndSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		29183CD11E13A173001A8BAA /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstVC.h; path = ../FirstVC.h; sourceTree = "<group>"; };
+		29183CD21E13A173001A8BAA /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstVC.m; path = ../FirstVC.m; sourceTree = "<group>"; };
+		29183CD41E13A244001A8BAA /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondVC.swift; path = ../SecondVC.swift; sourceTree = "<group>"; };
+		29183CD71E13D674001A8BAA /* Charts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Charts; path = "../../../../Downloads/Charts-master/Source/Charts"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				29183CB41E13A009001A8BAA /* ObjCAndSwiftTests */,
 				29183CBF1E13A009001A8BAA /* ObjCAndSwiftUITests */,
 				29183C991E13A009001A8BAA /* Products */,
+				29183CD61E13D674001A8BAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +106,17 @@
 		29183C9A1E13A009001A8BAA /* ObjCAndSwift */ = {
 			isa = PBXGroup;
 			children = (
+				29183CD11E13A173001A8BAA /* FirstVC.h */,
+				29183CD21E13A173001A8BAA /* FirstVC.m */,
 				29183C9E1E13A009001A8BAA /* AppDelegate.h */,
 				29183C9F1E13A009001A8BAA /* AppDelegate.m */,
-				29183CA11E13A009001A8BAA /* ViewController.h */,
-				29183CA21E13A009001A8BAA /* ViewController.m */,
+				29183CD41E13A244001A8BAA /* SecondVC.swift */,
 				29183CA41E13A009001A8BAA /* Main.storyboard */,
 				29183CA71E13A009001A8BAA /* Assets.xcassets */,
 				29183CA91E13A009001A8BAA /* LaunchScreen.storyboard */,
 				29183CAC1E13A009001A8BAA /* Info.plist */,
 				29183C9B1E13A009001A8BAA /* Supporting Files */,
+				29183CCE1E13A087001A8BAA /* ObjCAndSwift-Bridging-Header.h */,
 			);
 			path = ObjCAndSwift;
 			sourceTree = "<group>";
@@ -138,6 +145,14 @@
 				29183CC21E13A009001A8BAA /* Info.plist */,
 			);
 			path = ObjCAndSwiftUITests;
+			sourceTree = "<group>";
+		};
+		29183CD61E13D674001A8BAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29183CD71E13D674001A8BAA /* Charts */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +222,7 @@
 				TargetAttributes = {
 					29183C971E13A009001A8BAA = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					29183CB01E13A009001A8BAA = {
@@ -273,8 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29183CA31E13A009001A8BAA /* ViewController.m in Sources */,
+				29183CD31E13A173001A8BAA /* FirstVC.m in Sources */,
 				29183CA01E13A009001A8BAA /* AppDelegate.m in Sources */,
+				29183CD51E13A244001A8BAA /* SecondVC.swift in Sources */,
 				29183C9D1E13A009001A8BAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,10 +441,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ObjCAndSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NeoRays.ObjCAndSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjCAndSwift/ObjCAndSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -435,16 +456,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ObjCAndSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NeoRays.ObjCAndSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjCAndSwift/ObjCAndSwift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		29183CC91E13A009001A8BAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ObjCAndSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -457,6 +482,7 @@
 		29183CCA1E13A009001A8BAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ObjCAndSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -469,6 +495,7 @@
 		29183CCC1E13A009001A8BAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ObjCAndSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NeoRays.ObjCAndSwiftUITests;
@@ -480,6 +507,7 @@
 		29183CCD1E13A009001A8BAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ObjCAndSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NeoRays.ObjCAndSwiftUITests;

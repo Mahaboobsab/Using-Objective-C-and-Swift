@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstVC.h
 //  ObjCAndSwift
 //
 //  Created by Mahaboobsab Nadaf on 28/12/16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FirstVC : UIViewController
+- (IBAction)nextVC:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
-
